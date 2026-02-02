@@ -1,0 +1,13 @@
+package com.ayrtonnhaguaga.auditledger;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AuditLedgerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AuditLedgerApplication.class, args);
+	}
+
+}
